@@ -1,4 +1,5 @@
 import Comp2 from "./Components/Comp2";
+import JavascriptComp from "./Components/JavascriptComp";
 import MyComp from "./Components/MyComp";
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
 
       <MyComp />
       <Comp2 />
+      <br />
+      <br />
+      <br />
+      <br />
+      <JavascriptComp />
     </>
   );
 }
