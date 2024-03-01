@@ -1,3 +1,4 @@
+import Comp2 from "./Components/Comp2";
 import MyComp from "./Components/MyComp";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       />
 
       <MyComp />
+      <Comp2 />
     </>
   );
 }
