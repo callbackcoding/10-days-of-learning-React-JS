@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Comp2.css";
-const Comp2 = () => {
+const Comp2 = (props) => {
   const mystyles = {
     width: "200px",
     height: "200px",
@@ -8,6 +8,8 @@ const Comp2 = () => {
   return (
     <div>
       <h1 className="heading">Hello!!</h1>
+      <p>The value of num is: {props.number}</p>
+      <p>The value of fruit is: {props.fruit}</p>
       <p style={{ fontSize: "25px", color: "orange" }}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
         impedit a facere fuga labore! Rerum eum reiciendis animi sunt. Numquam
