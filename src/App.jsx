@@ -1,3 +1,4 @@
+import Api from "./Components/Api";
 import Comp2 from "./Components/Comp2";
 import Hooks from "./Components/Hooks";
 import JavascriptComp from "./Components/JavascriptComp";
@@ -30,6 +31,7 @@ function App() {
       <br />
       <JavascriptComp />
       <Hooks />
+      <Api/>
     </>
   );
 }
