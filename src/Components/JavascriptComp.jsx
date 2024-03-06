@@ -6,7 +6,7 @@ const JavascriptComp = () => {
   };
   // variable
   const num = 5;
-  console.log(num);
+  // console.log(num);
   //   array
   var myArr = ["Apple", "Orange", "Mango", "Banana", "Grapes"];
 
@@ -17,7 +17,7 @@ const JavascriptComp = () => {
     platform: "Youtube",
   };
 
-  console.log(myArr);
+  // console.log(myArr);
 
   var flag = true;
   var a = "kchbhi";
@@ -42,7 +42,7 @@ const JavascriptComp = () => {
 
       {Object.keys(myObj).map((item, index) => {
         return (
-          <p>
+          <p key={index}>
             {item} : {myObj[item]}
           </p>
         );
@@ -61,7 +61,6 @@ const JavascriptComp = () => {
       ) : (
         <p>Value is nothing</p>
       )}
-      
     </div>
   );
 };

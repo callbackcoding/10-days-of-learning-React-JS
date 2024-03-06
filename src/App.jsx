@@ -1,4 +1,5 @@
 import Comp2 from "./Components/Comp2";
+import Hooks from "./Components/Hooks";
 import JavascriptComp from "./Components/JavascriptComp";
 import MyComp from "./Components/MyComp";
 
@@ -28,6 +29,7 @@ function App() {
       <br />
       <br />
       <JavascriptComp />
+      <Hooks />
     </>
   );
 }
